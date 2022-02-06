@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pogodi moj broj!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pogodi moj broj!</h1>
+      <p class="between">(Izmedju 1 i 20)</p>
+      <button class="btn again">Ponovo!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Proveri!</button>
+      </section>
+      <section class="right">
+        <p class="message">Pocni pogadjanje...</p>
+        <p class="label-score">💯 Skor: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Najveci skor: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
